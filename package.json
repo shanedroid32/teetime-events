@@ -1,8 +1,8 @@
 {
-  "name": "@finsweet/developer-starter",
+  "name": "teetime-events",
   "version": "0.0.0",
   "description": "Developer starter template for Finsweet projects.",
-  "homepage": "https://github.com/finsweet/developer-starter#readme",
+  "homepage": "https://github.com/shanedroid32/teetime-events#readme",
   "license": "ISC",
   "keywords": [],
   "author": {
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/finsweet/developer-starter.git"
+    "url": "git+https://github.com/shanedroid32/teetime-events.git"
   },
   "bugs": {
-    "url": "https://github.com/finsweet/developer-starter/issues"
+    "url": "https://github.com/shanedroid32/teetime-events/issues"
   },
   "type": "module",
   "main": "src/index.ts",
@@ -40,6 +40,8 @@
     "@finsweet/eslint-config": "^2.0.7",
     "@finsweet/tsconfig": "^1.3.4",
     "@playwright/test": "^1.42.1",
+    "@types/date-fns": "^2.6.0",
+    "@types/jquery": "^3.5.30",
     "@typescript-eslint/eslint-plugin": "^7.1.1",
     "@typescript-eslint/parser": "^7.1.1",
     "cross-env": "^7.0.3",
@@ -52,7 +54,10 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@finsweet/ts-utils": "^0.40.0"
+    "@deltaclan/superform": "^2.1.7",
+    "@finsweet/ts-utils": "^0.40.0",
+    "date-fns": "^3.6.0",
+    "jquery": "^3.7.1"
   },
   "engines": {
     "pnpm": ">=9"
